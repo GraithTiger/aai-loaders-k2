@@ -1,6 +1,6 @@
 {
     "name": "aai-loaders-reduced-cost",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "title": "AAI Loaders: Reduced Cost",
     "author": "Sauravisus",
     "dependencies": [
