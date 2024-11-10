@@ -49,3 +49,20 @@ for recipe_name, details in pairs(loaders) do
         recipe.energy_required = details.energy_required
     end
 end
+
+
+-- Change Technology so Loaders are unlocked with their equivalent logistics
+local tech = data.raw.technology
+
+local function addUnlockRecipe (recipe, technology)
+    local effects = tech[technology].effects
+    table.insert(effects, {type = "unlock-recipe", recipe = recipe})
+    tech[technology].effects = effects
+end
+
+addUnlockRecipe("aai-loader", "logistics")
+addUnlockRecipe("aai-fast-loader", "logistics-2")
+addUnlockRecipe("aai-express-loader", "logistics-3")
+if mods["space-age"] then
+    addUnlockRecipe("aai-turbo-loader", "turbo-transport-belt")
+end

@@ -1,6 +1,6 @@
 {
     "name": "aai-loaders-k2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "title": "AAI Loaders: Krastorio 2 Costs",
     "author": "Graith95",
     "dependencies": [
@@ -8,6 +8,6 @@
 		"? space-age >= 2.0.2",
         "aai-loaders >= 0.2.2"
     ],
-    "description": "Changes the costs in AAI Loaders to be similar to the costs in Krastorio 2. Also disables lubricated mode.",
+    "description": "Changes the costs in AAI Loaders to be similar to the costs in Krastorio 2. Also disables lubricated mode and unlocks with the corresponding logistics technology.",
     "factorio_version": "2.0"
 }

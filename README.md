@@ -11,6 +11,7 @@ cheaper to craft, by changing their recipes to be similar to Krastorio 2.
   - Fast Loaders: 1 fast belt, 2 loaders, 10 iron gear wheels
   - Express Loaders: 1 express belt, 2 fast loaders, 10 steel plates
   - Turbo Loaders (Space Age): 1 turbo belt, 2 fast loaders, 10 tungsten plates 
+- Loaders are now unlocked with their respective Logistics tier (& Turbo Belts for Space Age)
 
 ## Special thanks
 
