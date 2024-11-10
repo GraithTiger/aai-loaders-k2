@@ -1,13 +1,13 @@
 {
-    "name": "aai-loaders-reduced-cost",
-    "version": "0.0.4",
-    "title": "AAI Loaders: Reduced Cost",
-    "author": "Sauravisus",
+    "name": "aai-loaders-k2",
+    "version": "0.0.1",
+    "title": "AAI Loaders: Krastorio 2 Costs",
+    "author": "Graith95",
     "dependencies": [
 		"base >= 2.0.2",
 		"? space-age >= 2.0.2",
         "aai-loaders >= 0.2.2"
     ],
-    "description": "Tweaks the cost of the loaders in AAI Loaders in unlubricated mode, and disables lubricated mode. Now costs 5x tier appropriate inserters, and 5x tier appropriate belts.",
+    "description": "Changes the costs in AAI Loaders to be similar to the costs in Krastorio 2. Also disables lubricated mode.",
     "factorio_version": "2.0"
 }
